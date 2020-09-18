@@ -1,0 +1,23 @@
+---
+title: Test Post
+author: Bryce Roney
+date: '2020-09-18'
+slug: test-post
+categories: []
+tags:
+  - R Markdown
+description: ''
+---
+
+Hi there!!
+
+```{r}
+library(tidyverse)
+
+mtcars %>%
+  ggplot(aes(x=mpg, y=hp)) +
+  geom_point() +
+  theme_minimal()
+
+
+```

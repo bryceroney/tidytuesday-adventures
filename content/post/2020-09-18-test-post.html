@@ -1,0 +1,28 @@
+---
+title: Test Post
+author: Bryce Roney
+date: '2020-09-18'
+slug: test-post
+categories: []
+tags:
+  - R Markdown
+description: ''
+---
+
+
+
+<p>Hi there!!</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## -- Attaching packages ----------------------------------------- tidyverse 1.3.0 --</code></pre>
+<pre><code>## v ggplot2 3.3.2     v purrr   0.3.4
+## v tibble  3.0.3     v dplyr   1.0.2
+## v tidyr   1.1.2     v stringr 1.4.0
+## v readr   1.3.1     v forcats 0.5.0</code></pre>
+<pre><code>## -- Conflicts -------------------------------------------- tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>mtcars %&gt;%
+  ggplot(aes(x=mpg, y=hp)) +
+  geom_point() +
+  theme_minimal()</code></pre>
+<p><img src="/post/2020-09-18-test-post_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
