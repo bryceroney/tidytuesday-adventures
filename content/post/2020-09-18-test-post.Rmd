@@ -2,11 +2,12 @@
 title: Test Post
 author: Bryce Roney
 date: '2020-09-18'
-slug: test-post
-categories: []
+categories:
+  - tidytuesday
 tags:
   - R Markdown
-description: ''
+  - model
+slug: test-post
 ---
 
 Hi there!!
